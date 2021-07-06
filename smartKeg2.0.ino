@@ -11,9 +11,9 @@
 #include "HX711.h"
 #include "Ubidots.h"
 
-const char* UBIDOTS_TOKEN = "BBFF-QzB2aXJOMuWwTfOqWI2a9jPA6k7iGU";  // Put here your Ubidots TOKEN
-const char* WIFI_SSID = "BTHub6-G8H8";      // Put here your Wi-Fi SSID
-const char* WIFI_PASS = "qrHGcqU7M46b";      // Put here your Wi-Fi password
+const char* UBIDOTS_TOKEN = "TOKEN";  // Put here your Ubidots TOKEN
+const char* WIFI_SSID = "WIFISSID      // Put here your Wi-Fi SSID
+const char* WIFI_PASS = "WIFIPASSWORD";      // Put here your Wi-Fi password
 Ubidots ubidots(UBIDOTS_TOKEN, UBI_UDP); // Uncomment to use UDP
 
 
